@@ -1,48 +1,79 @@
-.body {
-  .container.body__container {
+.sidebar {
+  ul {
+    list-style-type: none;
+  }
+    flex: 0 1 20%;
+    background: lightgray;
+    border-radius: 5px;
+    padding:10px;
+    font-size: 18px;
+  &__list {
+    list-style-type: none;
+  }
+  &__list-item {
     display: flex;
-    flex-flow: row wrap;
-    .body__sidebar {
-      flex: 0 1 20%;
-      background: lightgray;
-      border-radius: 5px;
-      padding:10px;
-      font-size: 18px;
-      ul.body__list {
-        list-style-type: none;
-        li.body__list-item {
-          display: flex;
-          padding: 5px;
-          margin-bottom: 10px;
-          border:2px solid black;
-          border-radius: 5px;
-          position: relative;
-          &:hover {
-            .body__dropdown {
-              display: block;
-            }
-          }
-          .body__dropdown {
-            position: absolute;
-            top:0;
-            left:101%;
-            width:50%;
-            padding:10px;
-            border-radius: 5px;
-            display: none;
-            background: lightgray;
-            ul {
-              list-style-type: none;
-            }
-          }
-        }
-        .body__list-item-text {
-          flex: 0 1 80%;
-        }
+    padding: 5px;
+    margin-bottom: 10px;
+    border:2px solid black;
+    border-radius: 5px;
+    position: relative;
+    &:hover {
+      .sidebar__dropdown {
+        display: block;
       }
     }
-    .body__content {
-      flex: 0 1 80%;
+  }
+
+  &__list-item-text {
+    flex: 0 1 80%;
+  }
+
+  &__dropdown {
+    position: absolute;
+    top:0;
+    left:101%;
+    width:50%;
+    padding:10px;
+    border-radius: 5px;
+    display: none;
+    background: lightgray;
+  }
+
+  &__dropdown-list {
+
+  }
+
+  &__dropdown-list-item {
+    &:hover {
+      .sidebar__dropdown-two {
+        display: block;
+      }
     }
   }
+
+  &__dropdown-two {
+    position: absolute;
+    top:0;
+    left:101%;
+    width:100%;
+    padding:10px;
+    border-radius: 5px;
+    display: none;
+    background: lightgray;
+  }
+
+  &__dropdown-two-list {
+  }
+
+  &__dropdown-two-list-item {
+  }
+}
+
+.arrow-4 {
+}
+
+.arrow-4-left {
+}
+
+.arrow-4-right {
 }
