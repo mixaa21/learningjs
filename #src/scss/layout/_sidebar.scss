@@ -5,7 +5,6 @@
     flex: 0 1 20%;
     background: lightgray;
     border-radius: 5px;
-    padding:10px;
     font-size: 18px;
   &__list {
     list-style-type: none;
@@ -45,10 +44,11 @@
 
   &__dropdown-list-item {
     &:hover {
-      .sidebar__dropdown-two {
-        display: block;
+        background: #fff;
+        .sidebar__dropdown-two {
+          display: block;
+        }
       }
-    }
   }
 
   &__dropdown-two {

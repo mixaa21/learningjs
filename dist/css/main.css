@@ -99,7 +99,6 @@
           flex: 0 1 20%;
   background: lightgray;
   border-radius: 5px;
-  padding: 10px;
   font-size: 18px;
 }
 
@@ -143,6 +142,10 @@
   background: lightgray;
 }
 
+.sidebar__dropdown-list-item:hover {
+  background: #fff;
+}
+
 .sidebar__dropdown-list-item:hover .sidebar__dropdown-two {
   display: block;
 }
@@ -183,8 +186,8 @@
 .arrow-4 {
   cursor: pointer;
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 20%;
-          flex: 0 1 20%;
+      -ms-flex: 0 1 42px;
+          flex: 0 1 42px;
   position: relative;
 }
 
