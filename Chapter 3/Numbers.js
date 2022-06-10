@@ -12,7 +12,6 @@ let maxFloat = 1.7976931348623157 * Math.pow(10,308)
 console.log(minFloat)
 console.log(maxFloat)
 
-
 // можно сохранить число в двоичной системе счисления
 let binary = 0b1111
 console.log(binary);
@@ -35,4 +34,6 @@ console.log(billion);
 console.log(bytes);
 console.log(bits);
 console.log(fraction);
+
+
 
