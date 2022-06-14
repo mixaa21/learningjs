@@ -1,14 +1,3 @@
-// Результатом выполнения числовой операции, которая превышает наибольшее представимое число (переполнение), будет особое значение бесконечности, Infinity.
-let x = Number.POSITIVE_INFINITY
-console.log(`Положительная бесконечность: \nNumber.POSITIVE_INFINITY = ${x}\n`)
-
-x = Number.NEGATIVE_INFINITY
-console.log(`Отрицательная бесконечность: \nNumber.NEGATIVE_INFINITY = ${x}\n`)
-
-// Особое значение NaN
-x = Number.NaN
-console.log(`Особое значение NaN: \nNumber.NaN = ${x}\n`)
-
 // Деление на ноль дает бесконечность
 x = 32543/0
 console.log(`Положительная бесконечность: \n32543/0 = ${x}\n`)
@@ -32,3 +21,6 @@ console.log(`Деление нуля на бесконечность дает н
 // Отрицательный ноль
 console.log(`Отрицательный ноль: \n-1/Infinity =`)
 console.log(-1/Infinity)
+
+
+
